@@ -1,0 +1,95 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*Navigace*/
+nav {
+	background: rgba(0,0,0,0.75);
+}
+
+nav ul {
+	width: 1020px;
+	margin: 0px auto;
+}
+nav ul li {
+	width: 145px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+nav ul li a:hover {
+	border-bottom: 2px solid #aebee2;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*Piškvorky*/
+/*
+.table {
+    width: window.width;
+}
+*/
+main ul {
+    width: 200px;
+	margin: 30px auto;
+    color: #8c8c8c;
+}
+
+
+
+main ul li {
+    width: 50px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.seznam li {
+    font-size: 30px;
+}
+
+#hrac-x {
+     border-bottom: 2px solid #8c8c8c;
+}
+
+#platno {
+    display: block;
+    margin: 20px auto;
+}
+
+#nova-hra {
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+    background: #999;
+    color: #FFF;
+    border-radius: 7px;
+}
+
+#nova-hra:hover {
+    background: #AAA;
+    
+    
+}
+
