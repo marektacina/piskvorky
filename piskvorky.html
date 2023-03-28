@@ -6,8 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<title>Piškvorky</title>
 	<link rel="icon" type="image/png" href="img/icons8-tic-tac-toe-16.png">
-    <script src="js/PisHra.js"></script>
-    <script src="js/pisobsluha.js"></script>
 </head>
 <body>
 	<header>
@@ -28,24 +26,24 @@
 
 	</header>
 	<main>
-        <ul class="seznam">
-            <li id="hrac-x">X</li>
+		<a href="#" id="new-game">NOVÁ HRA</a>
+        <ul class="list">
+            <li id="player-x">X</li>
             <li>:</li>
-            <li id="hrac-y">O</li>
-        </ul>
-        <div class="clearfix"></div>
-        <ul>
+            <li id="player-o">O</li>
             <li id="score-x">0</li>
             <li>:</li>
-            <li id="score-y">0</li>
+            <li id="score-o">0</li>
         </ul>
         <div class="clearfix"></div>
-		<canvas width="150" height="150" id="platno"></canvas>
-		<a href="#" id="nova-hra">NOVÁ HRA</a>
+		<canvas width="300" height="450" id="canvas"></canvas>
+
 	</main>
 
 	<footer>
 		
 	</footer>
+
+	<script src="script.js" type="module"></script>
 </body>
 </html>
